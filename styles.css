@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-background {
+    background-image: url('https://images3.alphacoders.com/166/166087.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin: 0.5em 0;
+}
+
+.hero-content button {
+    margin: 0.5em;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em 0;
+}
+
+/* Top Destinations */
+.top-destinations .card {
+    margin: 1em 0;
+}
+
+/* About Section */
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Districts Section */
+.districts img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Enquiry Form */
+.enquiry form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+/* Thiruvananthapuram Page */
+.district-header {
+    text-align: center;
+}
+
+.district-content .district-description {
+    margin-bottom: 2em;
+}
+
+.district-gallery h2,
+.district-food h2 {
+    margin: 1em 0;
+}
+
+.district-gallery .row img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
